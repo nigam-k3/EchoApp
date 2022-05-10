@@ -1,0 +1,25 @@
+.subheading {
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fbb244;
+  text-transform: uppercase;
+  background-color: rgba(251, 178, 68, 0.2);
+  border-radius: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  left: 43%;
+}
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+h1 {
+  position: absolute;
+  left: 40%;
+}
+p {
+  position: absolute;
+  left: 40%;
+}
