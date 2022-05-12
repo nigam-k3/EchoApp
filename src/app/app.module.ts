@@ -12,6 +12,11 @@ import { ServicesComponent } from './services/services.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { CrousalComponent } from './crousal/crousal.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { GetInToComponent } from './contact-us/get-in-to/get-in-to.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,9 +30,15 @@ import { FooterComponent } from './footer/footer.component';
     TestimonialComponent,
     CrousalComponent,
     FooterComponent,
+    ContactUsComponent,
+    GetInToComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, 
-    AppRoutingModule
+    ReactiveFormsModule,
+    FormsModule,
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

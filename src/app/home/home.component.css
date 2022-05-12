@@ -1,0 +1,9 @@
+.row{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: auto auto;
+}
+h1,p{
+    position: absolute;
+    left: 50%;
+}
