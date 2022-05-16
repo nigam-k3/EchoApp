@@ -1,8 +1,7 @@
 <br>
 <app-banner></app-banner>
 <br>
-<app-feature></app-feature><br><br><br><br><br><br>
-<br><br><br>
+<app-feature></app-feature>
 <app-features *ngFor="let messages of message" [data]="messages">
 </app-features>
 <br>
@@ -13,10 +12,10 @@
 <br>
 <h1>Our Services</h1>
 <br><br>
-  
-    <div class="row">
-        <app-services *ngFor="let servicese of service" [dis]="servicese"></app-services>
-    </div>
+
+<div class="row">
+    <app-services *ngFor="let servicese of service" [dis]="servicese"></app-services>
+</div>
 
 
 <br>

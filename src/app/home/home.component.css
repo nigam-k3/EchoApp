@@ -1,9 +1,16 @@
 .row{
     display: grid;
     row-gap: 10px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    margin-right: 12%;
+    padding: 5%;
+}
+
+.asdf{
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 h1,p{
     position: absolute;
-    left: 50%;
+    left: 45%;
 }
